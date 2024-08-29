@@ -1,0 +1,24 @@
+# extruturas-condicionais
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+		escreva("1 Informe o valor lógico (verdadeiro ou falso) para as proposições lógicas abaixo: \n")
+		
+
+
+		escreva("a) ", 2 * 4 == 24/3, "\n")
+		escreva("b) ", (15 % 4) < (19 % 6), "\n")
+		escreva("c) ", nao(2 < 5) != (8 == 8), "\n")
+		escreva("d) ", nao(2 < 5) != (8 == 8), "\n")
+		escreva("e) ", 2*2 == Matematica.potencia(2, 2), "\n")
+		escreva("f) ", verdadeiro e ( (7 / 2) > 3.5 ), "\n")
+		escreva("a) ", (Matematica.arredondar( 2.8, 0 ) == 3) e (Matematica.raiz(9,2) == 3), "\n")
+
+		escreva("2 Faça um programa que calcule equações de segundo grau; Seu algoritmo deve pedir ao usuário 3 valores (a, b, c); Ao final, você deve apresentar:  \n")
+
+		
+	}
+}
