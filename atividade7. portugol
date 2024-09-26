@@ -1,0 +1,43 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro a
+		inteiro b
+          inteiro c
+          
+		escreva("diga 3 numeros: \n")
+		leia(a, b, c)
+	
+ 		se(a >= b e a >= c){
+ 			escreva(a, " ")
+
+ 			se(b > c){
+ 				escreva(b, " ", c, " ")
+ 			} senao{
+ 				escreva(c, " ", b, " ")
+ 			}
+
+ 		} senao se(b >= c){
+ 			escreva(b, " ")
+ 			
+			se(a > c){
+ 				escreva(a, " ", c, " ")
+ 			} senao{
+ 				escreva(c, " ", a, " ")
+ 			}
+ 			
+ 		} senao{
+ 			escreva(c, " ")
+ 			
+ 			se(a > b){
+ 				escreva(a, " ", b, " ")
+ 			} senao{
+ 				escreva(b, " ", a, " ")
+ 			}
+ 		}
+	
+		
+	}
+}
